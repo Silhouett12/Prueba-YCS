@@ -1,0 +1,44 @@
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.secondary-div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.photo-div {
+    width: 200px;
+    height: 200px;
+}
+.photo-img {
+    width: 100%;
+    height: 100%;
+}
+
+.panel-photos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: center;
+    width: 100%;
+    height: 100%
+}
+.img-section-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-container {
+ width: 33%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.img-container h4 {
+    text-align: center;
+}
