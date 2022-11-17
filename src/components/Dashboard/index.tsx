@@ -38,7 +38,6 @@ const Dashboard = () => {
       "https://jsonplaceholder.typicode.com/photos"
     );
     const apiInfo = url.data;
-    setPhotosFiltered(apiInfo.map((el) => el));
     setPhotos(apiInfo.map((el) => el));
   };
 
@@ -111,7 +110,7 @@ const Dashboard = () => {
             pages={pages}
           />
           <div className="img-section-container">
-            {photosFiltered
+            {photosFiltered.length > 0
               ? photosFiltered.map((el, i) => (
                   <div key={i} className="img-container">
                     <h4>{el.title}</h4>
