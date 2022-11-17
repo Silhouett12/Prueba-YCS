@@ -14,7 +14,7 @@ const Pages = ({ photosPerPage, allPhotos, pages }: any) => {
         {pageNumber?.map((number, i) => {
           return (
             <li key={i} className='list'>
-              <button onClick={() => pages(number)}>
+              <button onClick={() => pages(number)} className='button'>
                 {number}
               </button>
             </li>

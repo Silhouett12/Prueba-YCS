@@ -70,6 +70,7 @@ const Dashboard = () => {
     <div className="main-div">
       <main className="secondary-div">
         <h1>Your Album </h1>
+        <div className="filters-div">
         <h3>Select an User to see his Album!</h3>
         <select defaultValue="Order by users" onChange={orderByUsers}>
           <option disabled value="Order by users">
@@ -103,6 +104,7 @@ const Dashboard = () => {
                 </option>
               ))}
         </select>
+        </div>
         <section className="panel-photos">
           <Pages
             photosPerPage={photosPerPage}

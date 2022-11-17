@@ -16,7 +16,7 @@
     height: 70px;
     display: flex;
     justify-content: space-between;
-    border-bottom: rgba(41, 49, 85, 0.655) 1px solid;
+    border-bottom: rgb(41, 49, 85) 1px solid;
   }
   
   .groupDiv {
@@ -36,7 +36,8 @@
     border: 0.1px solid rgba(0, 0, 0, 0.089);
     margin-right: 20px;
     padding: 0;
-    border-radius: 15px;
+    border: 1px solid rgba(41, 49, 85, 0.655) ;
+    border-radius: 20px;
   }
   
   .navbarButton:hover {
